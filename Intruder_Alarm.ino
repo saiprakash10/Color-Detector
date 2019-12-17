@@ -78,7 +78,7 @@ void loop() {
     if(sent==0)
     {  
       Serial.println("\tINTRUDER ALERT!!!!!");
-      delay(10);
+      delay(10);   // milliseconds
       Serial.println("\tSending Message!");
       sendSMS();
       sent = 1;
