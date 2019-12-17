@@ -86,7 +86,7 @@ void loop() {
   }
   if(state==HIGH)
     {
-      tone(buzz,500);
+      tone(buzz,500);     //500 is hz
       digitalWrite(led,HIGH);
       delay(100);
       noTone(buzz);
